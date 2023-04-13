@@ -23,3 +23,7 @@ code {
 @media screen and (max-width: 576px) {
 
 }
+
+body{
+  background-color: black;
+}
