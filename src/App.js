@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import { ApolloProvider } from '@apollo/client';
 
 import './App.css';
 
@@ -13,7 +12,6 @@ import Layout from "./pages/Layout/Layout";
 
 function App() {
   return (
-    <ApolloProvider>
       <Layout>
         <Router>
           <div className="container">
@@ -42,7 +40,6 @@ function App() {
           </div>
         </Router>
       </Layout>
-    </ApolloProvider>
   )
 }
 
